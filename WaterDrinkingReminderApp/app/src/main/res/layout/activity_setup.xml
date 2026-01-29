@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SetupActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Daily Water Goal" />
+
+    <Spinner
+        android:id="@+id/sp_goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Wake-up Time" />
+
+    <TextView
+        android:id="@+id/tv_wake_up_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to set"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="?attr/editTextBackground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sleep Time" />
+
+    <TextView
+        android:id="@+id/tv_sleep_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to set"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="?attr/editTextBackground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Reminder Interval" />
+        
+    <Spinner
+        android:id="@+id/sp_reminder_interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Save" />
+
+</LinearLayout>

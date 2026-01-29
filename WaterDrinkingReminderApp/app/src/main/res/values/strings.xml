@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WaterDrinkingReminderApp</string>
+    <string-array name="reminder_intervals">
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+    </string-array>
+    <string-array name="water_goal_options">
+        <item>2000 ml</item>
+        <item>2500 ml</item>
+        <item>3000 ml</item>
+        <item>3500 ml</item>
+        <item>4000 ml</item>
+    </string-array>
+</resources>
